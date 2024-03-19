@@ -40,3 +40,11 @@ let tablinks = document.getElementsByClassName("tab-links");
         function openMenu(){
             sidemenu.style.right = "0";
         }
+        // --------------header-text-------------
+
+        var typed = new Typed(".auto-type",{
+            strings: ["Frontend Developer", "Full-Stack UI Developer", "MERN Stack Developer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        });
